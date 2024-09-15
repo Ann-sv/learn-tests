@@ -1,7 +1,10 @@
 {
     "type": "module",
     "scripts": {
-      "test": "node --experimental-modules --no-warnings ./tests/capitalize.test.js"
+        "test": "node --experimental-modules --no-warnings ./tests/capitalize.test.js"
+    },
+    "devDependencies": {
+  "chai": "*",
+  "mocha": "*"
     }
-  }
-  
+}
